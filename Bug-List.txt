@@ -1,0 +1,2 @@
+"undefined" will be appended to the output everytime that it's changed and highlighted as a match
+[Discovered-17 July 2015][Fixed-20 July 2015]

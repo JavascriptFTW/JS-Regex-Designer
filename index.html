@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+		<link rel="stylesheet" type="text/css" href="styles/main.css">
+		<link rel="stylesheet" type="text/css" href="styles/default-editor-style.css">
+		<title>Regex Designer</title>
+	</head>
+	<body>
+		<h1>Regular Expression Creator Version -1.0 not-even-alpha</h1>
+		<h2>Expression</h2>
+		<div id="editor">/a/g</div>
+		<p>(The above expression tests for any word that contains the letter a once and only once anywhere within it)</p>
+		<h2>Test String</h2>
+		<div id="test">a<br>a</div>
+		<p>(The contents of the above box are the string that the users expression will be tested against, matches are currently colored blue, and yes, I do notice the "undefined" at the end of the output, it's a bug and I will work on fixing it)</p>
+		<h2>About</h2>
+		<p>Regular Expression creator is a pet project of mine. The goal of the project has so far been to create an offline version of <a href="http://regexr.com/">Regexr</a> for my personal use with the possibility of more features (such as visualizations like <a href="https://jex.im/regulex/">Regulex</a>, support for multiple flavors, etc.). The current status of the project is barely alpha ;). All it does right now is highlight text in the output box that matches the expression in the input box, editing the contents of the output box is very glitchy, and there are probable as-of-yet undiscovered fatal bugs. I really don't know why I'm writing this, since I probably won't release this anytime soon, but oh well... This project will probably be released on Github eventually, and my personal website <a href="http://javascriptftw.github.io">javascriptftw.github.io</a> (it needs some stuff on it ;) ).</p>
+		
+		<script type="text/javascript" src="scripts/main.js"></script>
+	</body>
+</html>

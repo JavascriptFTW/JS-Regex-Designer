@@ -1,0 +1,17 @@
+#editor {
+	width: 40em;
+	height: 1.25em;
+	font-size: 2em;
+	padding: 0.5em;
+	margin-bottom: 1em;
+	overflow-x: auto;
+}
+
+#test {
+	width: 40em;
+	height: 20em;
+	font-size: 2em;
+	padding: 0.5em;
+	padding-right: 1em;
+	overflow-x: auto;
+}
